@@ -15,19 +15,15 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-    text-align: center;
 }
 
-h1 {
-    font-size: xx-large;
-}
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: .5;
     overflow: hidden;
-
-}
+    display: flex;
+    }
 
 nav ul li {
     display: inline;
@@ -36,18 +32,20 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 14px 20px;
-    display: inline-block;
+    padding: 7px 20px;
 }
 
 nav ul li a:hover {
     background-color: #575757;
 }
 
+
 main {
+    color: white;
     padding: 20px;
-    text-align: center;
+    display: in;
     font-size: 2em;
+    width: 40%;
 }
 
 footer {
@@ -58,15 +56,6 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-/* alignment*/
-
-.floatleft {
-    float:left;
-}
-
-.floatright {
-    float:right;
 }
 
 /* About Us Page Specific Styles */
@@ -109,18 +98,20 @@ footer {
 .search-box {
     width: 300px; /* Increase the width as needed */
     height: 1px; /* Increase the height as needed */
-    padding: 17px;
+    padding: 12px;
     font-size: 1em;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 #btnSearch {
-    padding: 10px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 #btnClear {
-    padding: 10px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 /* Social Media Icons */
@@ -137,3 +128,16 @@ footer {
 .social-media a:hover {
     color: #0073e6;
 }
+
+div.transbox {
+    margin: 30px;
+    background-color: #333;
+    border: 1px solid black;
+    opacity: 0.8;
+  }
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #ffffff;
+  }
