@@ -74,9 +74,6 @@ footer {
     display: flex;
     margin: 30px;
     padding: 10px;
-    background-color: #333;
-    border: 1px solid black;
-    opacity: 0.9;
 }
 
 .team-section h2 {
@@ -90,6 +87,10 @@ footer {
 .team-member {
     margin-bottom: 10px;
     font-size: smaller;
+    background-color: #333;
+    border: 1px solid black;
+    opacity: 0.95;
+    padding: 40px;
 }
 
 /* contact Us Page Specific Styles */
@@ -148,7 +149,7 @@ div.transbox {
     margin: 30px;
     background-color: #333;
     border: 1px solid black;
-    opacity: 0.8;
+    opacity: 0.9;
     width: 40%;
   }
 
@@ -163,11 +164,5 @@ div.transboxAbout {
     margin: 10px;
     background-color: #333;
     border: 1px solid black;
-    opacity: 0.8;
-  }
-
-div.transboxAbout p {
-    margin: 1%;
-    color: #ffffff;
-    font-size: smaller;
+    opacity: 0.9;
   }
