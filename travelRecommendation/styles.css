@@ -15,6 +15,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
+    width: 100%;
 }
 
 nav ul {
@@ -62,12 +63,18 @@ footer {
     bottom: 0;
     left: 0;
 }
-
+/* home page nav bar */
 .center {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
+/* about and contact us nav bar */
+.center-nav {
+    display: flex;
+    justify-content: center;
+}
+
 .push-right {
 align-content: end;
 }
@@ -103,6 +110,19 @@ align-content: end;
 }
 
 /* contact Us Page Specific Styles */
+
+/* styling form elements */
+form  { display: table;      }
+label { display: table-cell; }
+input { 
+    display: table-cell; 
+    width: 99%;
+}
+input [type=submit] {
+    width: 100%;
+}
+
+
 .contact-container {
     max-width: 600px;
     margin: 0 auto;
@@ -113,12 +133,13 @@ align-content: end;
 
 .contact-container h1 {
     font-size: 2em;
-
 }
 
 .contact-container p {
     font-size: 1.2em;
     line-height: .5;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .search-box {
@@ -140,6 +161,14 @@ align-content: end;
     border-radius: 10px;
 }
 
+#btnBookNow {
+    background-color: rgb(0, 255, 115);
+    font-size: x-large;
+    margin-left:  0px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
 /* Social Media Icons */
 .social-media {
     margin-top: 20px;
@@ -155,6 +184,9 @@ align-content: end;
     color: #0073e6;
 }
 
+input[type=submit] {
+    width: 5em;  height: 2em;
+}
 
 div.transbox {
     margin: 30px;
@@ -165,7 +197,7 @@ div.transbox {
   }
 
 div.transbox p {
-    margin: 5%;
+    margin: 30px;
     color: #ffffff;
     width: 40%;
   }
