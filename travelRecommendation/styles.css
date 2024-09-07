@@ -23,7 +23,6 @@ nav ul {
     margin: 0;
     padding: .5;
     overflow: hidden;
-    display: flex;
     }
 
 nav ul li {
@@ -48,6 +47,11 @@ main {
     flex: 1;
 }
 
+textarea {
+    width: 600px;
+}
+
+
 footer {
     background-color: #333;
     color: #fff;
@@ -59,8 +63,13 @@ footer {
     left: 0;
 }
 
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 .push-right {
-    justify-content: flex-end;
+align-content: end;
 }
 
 /* About Us Page Specific Styles */
@@ -95,22 +104,23 @@ footer {
 
 /* contact Us Page Specific Styles */
 .contact-container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
     background-color: #333;
     opacity: .9;
 }
 
 .contact-container h1 {
     font-size: 2em;
-    margin-bottom: 20px;
+
 }
 
 .contact-container p {
     font-size: 1.2em;
-    line-height: 1.6;
+    line-height: .5;
 }
+
 .search-box {
     width: 300px; /* Increase the width as needed */
     height: 1px; /* Increase the height as needed */
