@@ -18,6 +18,7 @@ header {
     width: 100%;
 }
 
+/* navigation styling */
 nav ul {
     width: 100%;
     list-style-type: none;
@@ -48,11 +49,6 @@ main {
     flex: 1;
 }
 
-textarea {
-    width: 600px;
-}
-
-
 footer {
     background-color: #333;
     color: #fff;
@@ -74,7 +70,7 @@ footer {
     display: flex;
     justify-content: center;
 }
-
+/* push search bar button and clear butt to right */
 .push-right {
 align-content: end;
 }
@@ -86,6 +82,7 @@ align-content: end;
     align-content: center;
 }
 
+/* team member styling */
 .team-section {
     display: flex;
     margin: 30px;
@@ -110,18 +107,16 @@ align-content: end;
 }
 
 /* contact Us Page Specific Styles */
-
+textarea {
+    width: 99%;
+}
 /* styling form elements */
-form  { display: table;      }
+.contactForm  { display: table;      }
 label { display: table-cell; }
 input { 
     display: table-cell; 
     width: 99%;
 }
-input [type=submit] {
-    width: 100%;
-}
-
 
 .contact-container {
     max-width: 600px;
@@ -185,7 +180,8 @@ input [type=submit] {
 }
 
 input[type=submit] {
-    width: 5em;  height: 2em;
+    width: 99%;
+    height: 40px;
 }
 
 div.transbox {
