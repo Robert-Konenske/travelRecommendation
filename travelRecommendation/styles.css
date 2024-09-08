@@ -26,7 +26,8 @@ nav ul {
     padding: .5;
     overflow: hidden;
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav ul li {
@@ -35,7 +36,7 @@ nav ul li {
 }
 
 nav ul li a {
-
+    display: flex;
     justify-content: center;
     align-content: space-around;
     color: white;
