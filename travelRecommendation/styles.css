@@ -14,8 +14,9 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 10px 10px;
     width: 100%;    
+    height: 30px;
 }
 
 /* navigation styling */
@@ -71,11 +72,23 @@ footer {
 }
 /* title */
 .title {
+    flex: auto;
     align-self: flex-start;
+
 }
 /* nav links */
-.navLinks {
+.navLinksHome {
+    flex: auto;
     align-self: center;
+    
+}
+
+.navLinks {
+    margin-left: -375px;
+    flex: auto;
+    align-self: center;
+    margin-top: 7px;
+    
 }
 /* home page search bar and buttons */
 .search {
@@ -116,13 +129,14 @@ footer {
 .team-member {
     margin-bottom: 10px;
     font-size: smaller;
+    
     background-color: #333;
     border: 1px solid black;
     opacity: 0.95;
     margin: 10px;
     padding: 20px;
     flex: 1 0 50px;
-    transform:scale(0.9);
+
 
 }
 /* about us transbox */
@@ -181,7 +195,7 @@ input {
 
 .search-box {
     width: 380px; /* Increase the width as needed */
-    height: 10px; /* Increase the height as needed */
+    height: 5px; /* Increase the height as needed */
     padding: 12px;
     font-size: 1em;
     border: 1px solid #ccc;
