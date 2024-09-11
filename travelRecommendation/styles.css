@@ -84,7 +84,7 @@ footer {
 }
 
 .navLinks {
-    margin-left: -375px;
+    margin-left: -415px;
     flex: auto;
     align-self: center;
     margin-top: 7px;
@@ -94,6 +94,7 @@ footer {
 .search {
     align-self: flex-end;
     align-items: baseline;
+    margin-right: 40px;
 }
 /* about and contact us nav bar */
 .center-nav {
@@ -204,7 +205,7 @@ input {
 }
 #btnSearch {
     color: white;
-    padding: 5px;
+    padding: 4px;
     border-radius: 10px;
     background-color: #CC5500;
     width: 60px;
@@ -213,7 +214,7 @@ input {
 
 #btnClear {
     color: white;
-    padding: 5px;
+    padding: 4px;
     width: 60px;
     border-radius: 10px;
     background-color: #CC5500;
