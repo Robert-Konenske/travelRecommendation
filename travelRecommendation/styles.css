@@ -63,10 +63,6 @@ footer {
     left: 0;
 }
 
-.center {
-    text-align: center;
-}
-
 .spaceBetween {
     justify-content: space-between;
 }
@@ -74,13 +70,12 @@ footer {
 .title {
     flex: auto;
     align-self: flex-start;
-
 }
+
 /* nav links */
 .navLinksHome {
     flex: auto;
     align-self: center;
-    
 }
 
 .navLinks {
@@ -88,7 +83,6 @@ footer {
     flex: auto;
     align-self: center;
     margin-top: 7px;
-    
 }
 /* home page search bar and buttons */
 .search {
@@ -101,6 +95,55 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+.landingPage {
+    display: flex;
+    flex-direction: row;
+}
+
+.explore {
+    max-width: 40%;
+    margin: 10px;
+}
+
+.transbox {
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    background-color: #333;
+    border: 1px solid black;
+    opacity: 0.9;
+    flex: 1;
+  }
+
+.transbox h1 {
+    font-size: 80px;
+}
+
+.transbox p {
+    padding: .7em;
+    color: #ffffff;
+    flex: 1;
+    font-size: 14px;
+  }
+
+.left {
+    text-align: start;
+    font-size: 1em;
+}
+
+#results {
+    display: fl;
+    flex-direction: column;
+    align-self: flex-end;
+    flex: 1;
+  }
+
+.recommendation {
+    justify-content: end;
+}
+
 
 /* About Us Page Specific Styles */
 .about-container {
@@ -130,7 +173,6 @@ footer {
 .team-member {
     margin-bottom: 10px;
     font-size: smaller;
-    
     background-color: #333;
     border: 1px solid black;
     opacity: 0.95;
@@ -234,17 +276,3 @@ input[type=submit] {
     height: 40px;
     background-color: #CC5500;
 }
-
-div.transbox {
-    margin: 30px;
-    background-color: #333;
-    border: 1px solid black;
-    opacity: 0.9;
-    width: 40%;
-  }
-
-div.transbox p {
-    margin: 30px;
-    color: #ffffff;
-    width: 95%;
-  }
